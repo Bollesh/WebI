@@ -1,0 +1,8 @@
+.venv/
+__pycache__
+vectorDB/
+paths/
+proxies.txt
+working_proxies.txt
+crawled_websites.txt
+urls.txt
