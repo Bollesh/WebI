@@ -1,11 +1,7 @@
-# AI Research Assistant
+# WebI - AI Research Assistant
 ==========================
 
-A comprehensive AI research assistant designed to provide accurate and efficient answers to user queries by retrieving relevant information from a vector database.
-
-**Project Title:** AI Research Assistant
-**Description:**
-The AI Research Assistant is a cutting-edge tool that leverages the power of natural language processing (NLP) and semantic search to retrieve relevant information from a vast vector database. This project aims to provide users with accurate, concise, and informative responses to their queries.
+A comprehensive AI research assistant designed to provide accurate and efficient answers to user queries by retrieving relevant information from the internet and creating a vector database from the crawled data.
 
 ## Features:
 
@@ -16,16 +12,42 @@ The AI Research Assistant is a cutting-edge tool that leverages the power of nat
 *   **System Prompt:** Provides users with clear and concise instructions on how to use the assistant effectively.
 *   **Proxy Management**: Manages a pool of working proxies for making HTTP requests.
 
-## Installation:
+## Installation
 
-1.  Clone the repository using `git clone https://github.com/your-username/AI-Research-Assistant.git`
-2.  Install the required dependencies by running `pip install -r requirements.txt`
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-repo-url.git
+   cd your-repo-name
+   ```
 
-## Usage:
+2. Install dependencies using `pip`:
+   ```sh
+   pip install -r requirements.txt
+   ```
 
-1.  Run the main script using `python main.py`. Initially crawls through google and sets up a vector database.
-2.  Interact with the assistant by asking questions or providing prompts
-3.  The assistant will respond with accurate and concise answers
+## Usage
+
+1. **Run the Main Application**:
+   ```sh
+   python main.py
+   ```
+
+2. **Interact with the Assistant**:
+   - The assistant will prompt you to ask a question.
+   - Enter your query and press enter.
+
+3. **Example Interaction**:
+   ```
+   Ask anything: What is the best way to start a podcast?
+   .
+   . (gathers information from the internet and stores them in a vector database)
+   .
+   === RAG AGENT===
+   What is your question: What is the best way to start a podcast?
+   (performs a tool call to retrieve data from the vector database)
+   === ANSWER ===
+   ...
+   ```
 
 ## Project Structure
 The project is organized into the following directories:
