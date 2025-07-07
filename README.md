@@ -1,5 +1,4 @@
 # WebI - AI Research Assistant
-==========================
 
 A comprehensive AI research assistant designed to provide accurate and efficient answers to user queries by retrieving relevant information from the internet and creating a vector database from the crawled data.
 
