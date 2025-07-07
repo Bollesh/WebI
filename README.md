@@ -16,7 +16,7 @@ A comprehensive AI research assistant designed to provide accurate and efficient
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo-url.git
+   git clone https://github.com/Bollesh/WebI.git
    cd your-repo-name
    ```
 
