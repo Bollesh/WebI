@@ -6,8 +6,6 @@ from paths.paths import working_proxies_path
 
 def get_working_proxy(test_url):
 
-    # make_working_list(test_url)
-
     while not os.path.exists(working_proxies_path) or os.path.getsize(working_proxies_path) == 0:
         make_working_list(test_url)
     
